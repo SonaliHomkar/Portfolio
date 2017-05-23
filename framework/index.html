@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My  app</title>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1">
+ 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+ 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial"/>
+</head>
+<body>
+ 	<div class="container">
+	    <div class="row">
+	      <div class="col-md-6"><img class="title-logo" src="images/logo.png" alt="Udacity logo"></div>
+	      <div class="col-md-6 text-uppercase text-right`" >
+	      	<h2 class="title-super text-thin">Sonali Homkar</h2>
+	      	<h4>Full stack web developer</h4>
+	      </div>
+	    </div>
+	    <div class="row">
+			<div class="col-md-12">
+				<hr	>
+			</div>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-12"><img class="img-responsive" src="images/middleimage.png" alt="middle image"></div>
+	    </div>
+	    <div class="row">
+	    	<div class="col-md-12"><hr></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12"><h2 class=".text-muted">Featured work</h2></div>
+		</div>
+	    <div class="row text-center">
+	      <div class="col-md-4">
+	      	<img src="images/appify.jpg" data-toggle="modal" data-target="#appifymodal" alt="appify modal image">
+	      	<h3>Introduction to Python</h3>
+	      	<p><a href="https://github.com/SonaliHomkar/PythonIntro" target="_blank">Link to a project</a></p>
+	      </div>
+	      <div class="col-md-4">
+	      	<img src="images/sunflower.png" data-toggle="modal" data-target="#flowermodal" alt="Sunflower image">
+			<h3>Movie Trailer</h3>
+	      	<p><a href="https://github.com/SonaliHomkar/MovieTrailer" target="_blank">Link to a project</a></p>
+	      </div>
+	      <div class="col-md-4">
+	      	<img src="images/bokeh.png" data-toggle="modal" data-target="#bokehmodal" alt="Boekh image">
+			<h3>Restaurant Project</h3>
+	      	<p><a href="https://github.com/SonaliHomkar/RestaurantProject" target="_blank">Link to a project</a></p>
+	      </div>
+	    </div>
+		<footer>
+			<div class="row">
+			  	<div class="col-md-2"><a class="zocial-facebook" href="https://www.facebook.com/" target="_blank">Facebook</a></div>
+			  	<div class="col-md-2"><a class="zocial-gmail" href="https://www.gmail.com/" target="_blank">Gmail</a></div>
+			  	<div class="col-md-2"><a class="zocial-linkedin" href="https://www.linkedin.com/" target="_blank">Linkedin</a></div>
+			  	<div class="col-md-2"><a class="zocial-google" href="https://www.google.com/" target="_blank">Google</a></div>
+			  	<div class="col-md-2"><a class="zocial-twitter" href="https://www.twitter.com/" target="_blank">Twitter</a></div>
+			  	<div class="col-md-2"><a class="zocial-github" href="https://www.github.com/" target="_blank">GitHub</a></div>
+			 </div>
+	 	</footer>
+  	</div>
+	<!-- Modal -->
+	 <div class="modal fade" id="appifymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="images/appify.jpg">
+	                    This was my first project in this course. I learnt a lot about basic Python concepts.
+	                    Please follow the link to see all the assignments in this section.
+ 	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+    </div>
+
+
+    <!-- Modal -->
+		 <div class="modal fade" id="flowermodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+		                </div>
+		                <div class="modal-body">
+		                    <img class="img-responsive" src="images/sunflower.png">
+		                    The movie Trailer project is designed to display the trailers of various movies.
+		                    It also includes functionality of running a YouTube video of the movie trailer
+		                    by clicking on the movie poster image.
+                        </div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		                </div>
+		            </div>
+		        </div>
+    </div>
+    <!-- Modal -->
+		 <div class="modal fade" id="bokehmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+		                </div>
+		                <div class="modal-body">
+		                    <img class="img-responsive" src="images/bokeh.png">
+		                    This project basically gives insight into the real time web applications
+		                    implementing ORM in dynamic web pages. It provides information regarding
+		                    various restaurants and their menu with all CRUD operations. It also provides
+		                    the functionality to convert the data into JASON format which can be used by web services.
+		                </div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		                </div>
+		            </div>
+		        </div>
+    	</div>
+
+  </body>
+ </html>
