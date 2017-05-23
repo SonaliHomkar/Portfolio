@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Gentium Book Basic', serif;
+    color: #2d3c49;
+    font-weight: 200;
+    
+}
+.text-muted {
+    color: #2d3c49;
+    
+}
+
+.text-thin {
+    font-weight: 300;
+    
+}
+
+.title-super {
+    font-size: 50px;
+}
+
+.title-logo {
+    margin-top: 20px;
+
+}
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+      color: black;
+      display: inline-block;
+      text-shadow: 3px 3px lightgrey;
+    width: 2em;
+}
